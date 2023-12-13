@@ -3,7 +3,7 @@ body {
 }
 .container {
     background: #fff;
-    width: 90%;
+    width: 100%;
     max-width: 37.5rem;
     margin: 6.25rem auto 0;
     border-radius: 0.625rem;
