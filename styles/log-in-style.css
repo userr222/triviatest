@@ -1,0 +1,89 @@
+body {
+    background-color: #5c5c5c;
+}
+h1 {
+    font-family: Arial;
+    font-size: 40px;
+    flex: 1;
+    margin-bottom: 0;
+}
+.main {
+    background: #fff;
+    width: 30%;
+    margin: 6.25rem auto 0;
+    border-radius: 10px;
+    padding: 1.875rem;
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1.25rem;
+}
+
+.header {
+    text-align: center;
+}
+
+.instruction {
+    margin-top: 0.938rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: rgb(73, 73, 73);
+}
+
+#name-form {
+    margin-bottom: 1.2rem;
+    height: 2.5rem;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    outline: none;
+    border: none;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(0, 0, 0);
+    border-bottom-width: 1px;
+    box-shadow: 0, 2px, 5px  gray;
+    text-align: left;
+    padding-left: 0.2rem;
+}
+
+.name-form::placeholder {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0.1rem;
+    ;
+}
+
+#vazhdo {
+    margin-top: 1.2rem;
+    height: 2.5rem;
+    width: 5.5rem;
+    background-color: #012a6d;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 0.2rem;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+#vazhdo:hover{
+    color: #012a6d;
+    background-color: white;
+    border-color: #012a6d;
+    border-style: solid;
+    border-width: 1px;
+}
+.log-in-button {
+    margin-bottom: 1.2rem;
+    display: flex;
+    justify-content: center;
+}
+.forms {
+    text-align: center;
+}
